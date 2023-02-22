@@ -1,0 +1,32 @@
+{
+    "name": "amdad121/currency-exchange",
+    "description": "This is a Laravel package to get currency rates.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amdad121\\CurrencyExchange\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Amdad121\\CurrencyExchange\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amdad121\\CurrencyExchange\\CurrencyExchangeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Amdadul Haq",
+            "email": "amdadulhaq781@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+    }
+}
