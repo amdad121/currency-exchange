@@ -1,5 +1,6 @@
 <?php
 
+use Amdad121\CurrencyExchange\Http\Controllers\CurrencyExchangeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return 'welcome';
-});
+Route::get('/currency-exchange', CurrencyExchangeController::class);
